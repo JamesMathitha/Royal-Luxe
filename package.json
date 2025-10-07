@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://royalluxe.com",
+  "homepage": "http://jamesmathitha.github.io/Royal-Luxe/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
