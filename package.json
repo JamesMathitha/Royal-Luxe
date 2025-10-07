@@ -8,6 +8,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },
   "dependencies": {
@@ -32,7 +34,4 @@
     "typescript-eslint": "^8.3.0",
     "vite": "^7.1.9"
   },
-  "predeploy": "npm run build",
-"deploy": "gh-pages -d dist"
-}
 }
