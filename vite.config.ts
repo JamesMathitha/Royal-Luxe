@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: 'http://jamesmathitha.github.io/Royal-Luxe/',
+  base: '/Royal-Luxe/',
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
